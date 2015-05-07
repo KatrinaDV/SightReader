@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048CB5DA40284DFBCE46BE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B65950B8B0170B2EE42D61 /* Foundation.framework */; };
+		3E546A950FD88B65E0D9A178 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE37D4BDE3ED3CD4B1D038 /* Pods-dummy.m */; };
+		3EFBB76A1626498E97DB5B78 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB09559D204CB62B0E52AE /* OBShapedButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C60106713E51575E96DC74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B65950B8B0170B2EE42D61 /* Foundation.framework */; };
+		6825BC8523E620804430EEB9 /* OBShapedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 519A2F16CEB6E952A70BE648 /* OBShapedButton.h */; };
+		8414F25D8B069590FEE17E19 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D0D94A1C668900BD7E112 /* UIImage+ColorAtPixel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D281C7A2FF9916AEF4AB8C93 /* UIImage+ColorAtPixel.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D87082A70E5A7081C9BE82 /* UIImage+ColorAtPixel.h */; };
+		ED185135197EC1B1040E1F11 /* Pods-OBShapedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4EA5651691A1FDA897FD69 /* Pods-OBShapedButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91112447F21F9456633A4574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949A607ABAB498831C0C505F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71FF5697D6A63E91F539841;
+			remoteInfo = "Pods-OBShapedButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB3D9556403F05D46D34FE7 /* libPods-OBShapedButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OBShapedButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1013E9852C965E0E561BB125 /* Pods-OBShapedButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBShapedButton-Private.xcconfig"; sourceTree = "<group>"; };
+		2752C426C0F845E10C3A2694 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		30CE37D4BDE3ED3CD4B1D038 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		3E66DAED47DEDE586DFF92D3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		447FF6F753473629A5CD284B /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		4A8D0D94A1C668900BD7E112 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorAtPixel.m"; path = "UIImage+ColorAtPixel/UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		4DAB09559D204CB62B0E52AE /* OBShapedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OBShapedButton.m; path = OBShapedButton/OBShapedButton.m; sourceTree = "<group>"; };
+		4E4EA5651691A1FDA897FD69 /* Pods-OBShapedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OBShapedButton-dummy.m"; sourceTree = "<group>"; };
+		519A2F16CEB6E952A70BE648 /* OBShapedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OBShapedButton.h; path = OBShapedButton/OBShapedButton.h; sourceTree = "<group>"; };
+		5FD415EB59E59F22911CB419 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		8BB25F6DC94F4D131DFE8191 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		90D87082A70E5A7081C9BE82 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorAtPixel.h"; path = "UIImage+ColorAtPixel/UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		A652DC981BE577CD6777AAB6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59D3C7F2C01255EA1220B54 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B89127E01B3E669B2143A312 /* Pods-OBShapedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OBShapedButton-prefix.pch"; sourceTree = "<group>"; };
+		BF703655FD4AEF5555AC5BF9 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5D70AF5C8E0CCABCCC74BEB /* Pods-OBShapedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBShapedButton.xcconfig"; sourceTree = "<group>"; };
+		D7B65950B8B0170B2EE42D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD8FC25C9BEC6CD505F5A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C60106713E51575E96DC74F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AD4B906126E2B3469754B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048CB5DA40284DFBCE46BE5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3179B48235C899F030D699F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7B65950B8B0170B2EE42D61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48F0CECEE48B050881D1CCE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3179B48235C899F030D699F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		681B2DCC5493B1A871BB2AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A652DC981BE577CD6777AAB6 /* libPods.a */,
+				0FB3D9556403F05D46D34FE7 /* libPods-OBShapedButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A89DF59921943C9BCB7BEEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B60CE792BFDD86C555C98D7A /* OBShapedButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86B5BD5B543DE27AA2439C8F = {
+			isa = PBXGroup;
+			children = (
+				3E66DAED47DEDE586DFF92D3 /* Podfile */,
+				48F0CECEE48B050881D1CCE2 /* Frameworks */,
+				6A89DF59921943C9BCB7BEEB /* Pods */,
+				681B2DCC5493B1A871BB2AA3 /* Products */,
+				A8B01BDF725C0E1348EBCEB9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B01BDF725C0E1348EBCEB9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD912E273FC9BB9D031B6A44 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B60CE792BFDD86C555C98D7A /* OBShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				519A2F16CEB6E952A70BE648 /* OBShapedButton.h */,
+				4DAB09559D204CB62B0E52AE /* OBShapedButton.m */,
+				90D87082A70E5A7081C9BE82 /* UIImage+ColorAtPixel.h */,
+				4A8D0D94A1C668900BD7E112 /* UIImage+ColorAtPixel.m */,
+				D3AC38125A33D25204440DDB /* Support Files */,
+			);
+			path = OBShapedButton;
+			sourceTree = "<group>";
+		};
+		CD912E273FC9BB9D031B6A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B59D3C7F2C01255EA1220B54 /* Pods-acknowledgements.markdown */,
+				BF703655FD4AEF5555AC5BF9 /* Pods-acknowledgements.plist */,
+				30CE37D4BDE3ED3CD4B1D038 /* Pods-dummy.m */,
+				447FF6F753473629A5CD284B /* Pods-environment.h */,
+				8BB25F6DC94F4D131DFE8191 /* Pods-resources.sh */,
+				5FD415EB59E59F22911CB419 /* Pods.debug.xcconfig */,
+				2752C426C0F845E10C3A2694 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D3AC38125A33D25204440DDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D70AF5C8E0CCABCCC74BEB /* Pods-OBShapedButton.xcconfig */,
+				1013E9852C965E0E561BB125 /* Pods-OBShapedButton-Private.xcconfig */,
+				4E4EA5651691A1FDA897FD69 /* Pods-OBShapedButton-dummy.m */,
+				B89127E01B3E669B2143A312 /* Pods-OBShapedButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-OBShapedButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D2FC49759A46149D2D10905 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6825BC8523E620804430EEB9 /* OBShapedButton.h in Headers */,
+				D281C7A2FF9916AEF4AB8C93 /* UIImage+ColorAtPixel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F5909AD5B373A092CB87754 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EAEECEDB3F7873C1A89F15F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				56C04EBBBD6C41109CB458FD /* Sources */,
+				2CD8FC25C9BEC6CD505F5A14 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E7C981B19B55128DA3D0EA /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A652DC981BE577CD6777AAB6 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A71FF5697D6A63E91F539841 /* Pods-OBShapedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCC670BA4F3D369B5FB8D73 /* Build configuration list for PBXNativeTarget "Pods-OBShapedButton" */;
+			buildPhases = (
+				DA245DC26215634B1F24FE8F /* Sources */,
+				F0AD4B906126E2B3469754B6 /* Frameworks */,
+				9D2FC49759A46149D2D10905 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OBShapedButton";
+			productName = "Pods-OBShapedButton";
+			productReference = 0FB3D9556403F05D46D34FE7 /* libPods-OBShapedButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		949A607ABAB498831C0C505F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5782C134AE44C71EA6133145 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86B5BD5B543DE27AA2439C8F;
+			productRefGroup = 681B2DCC5493B1A871BB2AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5909AD5B373A092CB87754 /* Pods */,
+				A71FF5697D6A63E91F539841 /* Pods-OBShapedButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C04EBBBD6C41109CB458FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E546A950FD88B65E0D9A178 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA245DC26215634B1F24FE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFBB76A1626498E97DB5B78 /* OBShapedButton.m in Sources */,
+				ED185135197EC1B1040E1F11 /* Pods-OBShapedButton-dummy.m in Sources */,
+				8414F25D8B069590FEE17E19 /* UIImage+ColorAtPixel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E7C981B19B55128DA3D0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OBShapedButton";
+			target = A71FF5697D6A63E91F539841 /* Pods-OBShapedButton */;
+			targetProxy = 91112447F21F9456633A4574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16307F7865DE9587B2F6E145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1013E9852C965E0E561BB125 /* Pods-OBShapedButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OBShapedButton/Pods-OBShapedButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1960C9A0200A2BDB20C22B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1013E9852C965E0E561BB125 /* Pods-OBShapedButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OBShapedButton/Pods-OBShapedButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		88CA6ACC6F5FB7714158FDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2752C426C0F845E10C3A2694 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6A60A8D63CD0C876317FC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B68AA2C12A7CB849A8DA2B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28F1D09DAE360D5E181789B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD415EB59E59F22911CB419 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5782C134AE44C71EA6133145 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A60A8D63CD0C876317FC83 /* Debug */,
+				B68AA2C12A7CB849A8DA2B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EAEECEDB3F7873C1A89F15F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28F1D09DAE360D5E181789B /* Debug */,
+				88CA6ACC6F5FB7714158FDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCC670BA4F3D369B5FB8D73 /* Build configuration list for PBXNativeTarget "Pods-OBShapedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16307F7865DE9587B2F6E145 /* Debug */,
+				1960C9A0200A2BDB20C22B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 949A607ABAB498831C0C505F /* Project object */;
+}
